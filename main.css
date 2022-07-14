@@ -49,6 +49,7 @@ nav #menu li a:hover {
 /* Informatin */
 #infomation {
     background-color: #9dffb3;
+    border-radius: 30px;
     padding: 20px;
 }
 
