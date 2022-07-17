@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#h_top {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+#main {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#main #left {
+    flex: 50%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#hinh {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.o_img {
+    width: 100%;
+    height: auto;
+}
+
+#bao {
+    overflow: hidden;
+    text-align: center;
+}
+
+#bao ul {
+    list-style-type: none;
+    text-align: center;
+}
+.khung {
+    float: left;
+    padding: 5px;
+    width: 10px;
+    height: 15px;
+    border: 1px solid black;
+}
+
+.khung p {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+/* bên phải */
+#main #right {
+    flex: 50%;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#right ul li {
+    padding: 5px;
+}
+
+#right h2 {
+    text-align: center;
+}
+
+#right h3 {
+    color: red;
+    font-size: 17px;
+    text-align: center;
+}
+
+/* PHẦN NÚT */
+#right #nut {
+    text-align: center;
+}
+
+.botton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 0px 20px 0px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.hang1_buy_product a {
+    text-decoration: none;
+    color: black;
+}
+
+.hang1_buy_product {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+.hang1_buy_product:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* @media (max-width: 600px) {
+    #main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #main #left {
+        flex: 100%;
+    }
+    
+    #main #right {
+        flex: 100%;
+    }
+} */
